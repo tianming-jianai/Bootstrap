@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<!-- 
+				nav-tabs
+				nav-pills 胶囊
+				nav-stacked 垂直展示
+				nav-justified 两端对齐
+			 -->
+			<ul id="mytab" class="nav nav-pills nav-justified" role="tablist">
+				<li role="presentation" class="active"><a href="#">Home</a></li>
+				<li role="presentation"><a href="#">Hello</a></li>
+				<!-- 禁止点击 disabled 只是出现禁止点击图标 没有不可点击-->
+				<!-- 下拉菜单 -->
+				<li role="presentation" class="disabled dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">World
+					<span class="caret"></span>
+				</a>
+					<ul class="dropdown-menu" role="menu">
+						<li role="presentation"><a href="#" role="menuitem" tabindex="-1">World 1</a></li>
+						<li role="presentation"><a href="#" role="menuitem" tabindex="-1">World 2</a></li>
+						<li role="presentation"><a href="#" role="menuitem" tabindex="-1">World 3</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<script src="./js/jquery.min1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$("#mytab a").click(function(e){
+				e.preventDefault()
+				$(this).tab("show")
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Bootstrap组件</title>
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<!-- 输入框组 -->
+			<div class="input-group input-group-lg">
+				<span class="input-group-addon">@</span>
+				<input type="text" class="form-control" placeholder="Username" />
+			</div>
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Number" />
+				<span class="input-group-addon">.00</span>
+			</div>
+			<div class="input-group input-group-sm">
+				<span class="input-group-addon">@</span>
+				<input type="text" class="form-control" placeholder="Number" />
+				<span class="input-group-addon">.00</span>
+			</div>
+			
+			<!-- 输入框的尺寸 -->
+			<!-- input-group-lg 正常 input-group-sm -->
+			
+			<!-- 额外添加多选框，单选框 -->
+			<div class="row">
+				<div class="col-lg-6 col-sm-6">
+					<div class="input-group">
+						<span class="input-group-addon">
+							<input type="checkbox">
+						</span>
+						<input type="text" class="form-control">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-sm-6">
+					<div class="input-group">
+						<span class="input-group-addon">
+							<input type="radio">
+						</span>
+						<input type="text" class="form-control">
+					</div>
+				</div>
+			</div>
+			
+			<!-- 按钮效果 -->
+			<div class="row">
+				<div class="col-lg-6 col-sm-6">
+					<div class="input-group">
+						<span class="input-group-btn">
+							<button type="button" class="btn btn-default">Go!</button>
+						</span>
+						<input type="text" class="form-control">
+					</div>
+				</div>
+			</div>
+			
+			<!-- 下拉菜单效果 -->
+			<div class="row">
+				<div class="col-lg-6 col-sm-6">
+					<div class="input-group">
+						<div class="input-group-btn">
+							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+								Action
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Hello 1</a></li>
+								<li><a href="#">Hello 2</a></li>
+								<li><a href="#">Hello 3</a></li>
+								<li><a href="#">Hello 4</a></li>
+							</ul>
+						</div>
+						<input type="text" class="form-control" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.min1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
