@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+	</head>
+	<body>
+		<!-- 
+			默认是在顶部不固定
+			navbar-fixed-bottom 固定在底部
+			navbar-inverse 黑色
+		-->
+		<nav class="navbar navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">极客</a>
+				</div>
+
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav" id="mytab">
+						<li class="active"><a href="#">Link 1</a></li>
+						<li><a href="#">Link 2</a></li>
+						<li><a href="#">Link 3</a></li>
+					</ul>
+
+					<form action="" class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="搜索" />
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-default">提交</button>
+						</div>
+					</form>
+
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Link</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" href="#" data-toggle="dropdown">
+								点我
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Hello 1</a></li>
+								<li><a href="#">Hello 2</a></li>
+								<li><a href="#">Hello 3</a></li>
+								<li><a href="#">Hello 4</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<!-- 路径导航 -->
+		<nav class="navbar navbar-default navbar-fixed-bottom">
+			<ol class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Library</a></li>
+				<li><a href="#">Data</a></li>
+			</ol>
+		</nav>
+		<script src="./js/jquery.min1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$("#mytab a").click(function(e) {
+				e.preventDefault()
+				$(this).tab("show")
+			})
+		</script>
+	</body>
+</html>
