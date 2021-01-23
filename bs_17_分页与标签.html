@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>分页</title>
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<!-- 前三个展示了不同大小 -->
+			<nav>
+				<ul class="pagination pagination-lg"><!-- 手机 -->
+					<li class="disabled"><a href="#">&laquo;</a></li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">&raquo;</a></li>
+				</ul>
+			</nav>
+			
+			<nav>
+				<ul class="pagination"><!-- pad -->
+					<li class="disabled"><a href="#">&laquo;</a></li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">&raquo;</a></li>
+				</ul>
+			</nav>
+			
+			<nav>
+				<ul class="pagination pagination-sm"><!-- 显示器 -->
+					<li class="disabled"><a href="#">&laquo;</a></li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">&raquo;</a></li>
+				</ul>
+			</nav>
+			
+			<!-- 页数没有那么多，翻页效果 -->
+			<!-- 居中显示 -->
+			<nav>
+				<ul class="pager">
+					<li><a href="#">上一页</a></li>
+					<li><a href="#">下一页</a></li>
+				</ul>
+			</nav>
+			
+			<!-- 增加箭头，更明确的提示 -->
+			<nav>
+				<ul class="pager">
+					<li class="previous disabled"><a href="#">&larr;向前</a></li>
+					<li class="next"><a href="#">向后&rarr;</a></li>
+				</ul>
+			</nav>
+			
+			<!-- 标签 程序角度更倾向于使用 标识 -->
+			<!-- 以不同颜色标识当前按钮的不同状态 -->
+			<span class="label label-default">默认</span>
+			<span class="label label-primary">primary</span>
+			<span class="label label-success">success</span>
+			<span class="label label-info">info</span>
+			<span class="label label-warning">warning</span>
+			<span class="label label-danger">danger</span>
+			<!-- 一般标识会放在标题后面 -->
+			<h3>这是一个主标题<span class="label label-info">描述</span></h3>
+			
+		</div>
+		<script src="" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
